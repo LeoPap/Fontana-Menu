@@ -1,0 +1,277 @@
+html {
+
+    background-image: url("/fontanaImages/treeOfLife1.jpg");
+    background-size: 100%;
+
+}
+
+li {
+    padding: 1%;
+}
+
+h1 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(221, 207, 146);
+
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.991), 3px 1px 0 rgba(0, 0, 0, 0.991);
+
+}
+
+.changeLang {
+    color: rgb(221, 207, 146);
+
+
+    font-size: medium;
+
+
+
+}
+
+.changeLangBox :hover {
+    background-color: #000;
+}
+
+.changeLangBox {
+
+    float: right;
+
+}
+
+h2 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(221, 207, 146);
+
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.991), 2px 1px 0 rgba(0, 0, 0, 0.991);
+    margin-bottom: -1%;
+}
+
+.p {
+
+    padding: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    width: 70%;
+    background-color: #2b0000eb;
+    margin-top: -2%;
+    color: rgba(255, 235, 205, 0.808);
+    border-radius: 25px;
+    border: 3px solid rgba(0, 0, 0, 0.365);
+    border-collapse: separate;
+    text-shadow: 0px 0px 0 #000, -2px -2px 0 #000;
+    box-shadow: 4px 10px 10px 4px rgba(0, 0, 0, 0.623);
+}
+
+.navigationBar {
+    overflow: hidden;
+    background-color: #2b0000ce;
+    display: inline-block;
+    width: fit-content;
+    border-radius: 100px;
+    padding: 60px;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 4px 10px 10px 4px rgba(0, 0, 0, 0.623);
+}
+
+.navigationBar .navigationOptions {
+    font-family: fantasy;
+    float: left;
+    color: rgb(221, 207, 146);
+    text-shadow: 1px 3px #000;
+    margin: auto;
+    padding: 40px;
+    text-decoration: wavy;
+    font-size: medium;
+    border-radius: 100cm;
+}
+
+.navigationBar .navigationOptions:hover {
+    background-color: #0000001a;
+    color: rgb(221, 207, 146);
+    box-shadow: 4px 10px 10px 4px rgba(0, 0, 0, 0.943);
+}
+
+#active {
+    background-color: #2b0000;
+}
+
+.juice {
+    font-size: medium;
+    float: left;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+
+    color: burlywood;
+    text-shadow: 0px 1px 0 #000, -1px -1px 0 #000;
+    background-color: rgba(31, 2, 2, 0.865);
+    border-radius: 25pt;
+    padding: 3%;
+    border: 3px solid rgba(0, 0, 0, 0.365);
+
+    box-shadow: 4px 10px 10px 4px rgba(0, 0, 0, 0.623);
+
+}
+
+#shots {
+    list-style-type: decimal;
+}
+
+
+
+
+
+button {
+    border: none;
+    border-radius: 20px;
+    border-collapse: separate;
+    padding: 5px 10px;
+
+    font-size: medium;
+    cursor: pointer;
+    background-color: #2b0000;
+    color: rgb(221, 207, 146);
+    text-decoration-line: none;
+    border: 2px black solid;
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.623);
+    width: fit-content;
+}
+
+button a {
+    color: rgb(221, 207, 146);
+    text-decoration: none;
+}
+
+
+
+
+
+.dropdown {
+    float: left;
+    float: right;
+    position: relative;
+    font-size: medium;
+
+}
+
+.dropdown:hover button {
+    background-color: #000;
+}
+
+.dropdown-options {
+
+    display: none;
+    position: absolute;
+    overflow: auto;
+    width: 200%;
+
+    background-color: rgba(250, 221, 221, 0.925);
+    border-radius: 10px;
+    border: 2px black solid;
+    box-shadow: 4px 10px 10px 4px rgba(0, 0, 0, 0.623);
+
+}
+
+.dropdown:hover .dropdown-options {
+    display: block;
+
+
+}
+
+.dropdown-options a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 1px solid rgba(0, 0, 0, 0.153);
+}
+
+.dropdown-options a:hover {
+    color: rgb(221, 207, 146);
+    background-color: #2b0000;
+}
+
+i {
+    margin: 3px;
+
+    font-size: medium;
+}
+
+.coffee {
+    float: left;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    list-style-type: none;
+    color: rgb(203, 167, 120);
+    text-shadow: 0px 1px 0 #000, -1px -1px 0 #000;
+    background-color: rgba(31, 2, 2, 0.865);
+    border-radius: 25pt;
+    padding: 1%;
+    border: 3px solid rgba(0, 0, 0, 0.365);
+    font-size: medium;
+    box-shadow: 4px 10px 10px 4px rgba(0, 0, 0, 0.623);
+
+}
+
+.drinks {
+    background-color: white;
+    width: fit-content;
+    border-collapse: separate;
+    text-align: left;
+    border-radius: 27pt;
+    padding: 1%;
+    margin-top: 2%;
+    color: rgba(203, 167, 120, 0.918);
+    text-shadow: 0px 1px 0 #000, -1px -1px 0 #000;
+    background-color: rgba(31, 2, 2, 0.865);
+    border-radius: 25pt;
+    padding: 1%;
+    border: 3px solid rgba(0, 0, 0, 0.365);
+    font-size: small;
+    box-shadow: 4px 10px 10px 4px rgba(0, 0, 0, 0.623);
+}
+
+.drinks th {
+    font-size: medium;
+    color: rgb(203, 167, 120);
+
+}
+
+
+
+
+
+.smoothies {
+    float: left;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    list-style-type: none;
+    color: rgb(203, 167, 120);
+    text-shadow: 0px 1px 0 #000, -1px -1px 0 #000;
+    background-color: rgba(31, 2, 2, 0.865);
+    border-radius: 25pt;
+    padding: 1%;
+    border: 3px solid rgba(0, 0, 0, 0.365);
+    font-size: medium;
+    box-shadow: 4px 10px 10px 4px rgba(0, 0, 0, 0.623);
+}
+
+.brunch {
+    float: left;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    list-style-type: disc;
+    color: rgb(203, 167, 120);
+    text-shadow: 0px 1px 0 #000, -1px -1px 0 #000;
+    background-color: rgba(31, 2, 2, 0.865);
+    border-radius: 25pt;
+    padding: 3%;
+    border: 3px solid rgba(0, 0, 0, 0.365);
+    font-size: medium;
+    box-shadow: 4px 10px 10px 4px rgba(0, 0, 0, 0.623);
+}
