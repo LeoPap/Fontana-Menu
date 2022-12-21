@@ -51,7 +51,7 @@ h2 {
 
     padding: 1%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: medium;
+    font-size: 90%;
     width: 70%;
     background-color: #2b0000eb;
     margin-top: -2%;
@@ -82,14 +82,14 @@ h2 {
     margin: auto;
     padding: 40px;
     text-decoration: wavy;
-    font-size: medium;
+    font-size: 22pt;
     border-radius: 100cm;
 }
 
 .navigationBar .navigationOptions:hover {
-    background-color: #0000001a;
+    background-color: #000000;
     color: rgb(221, 207, 146);
-    box-shadow: 4px 10px 10px 4px rgba(0, 0, 0, 0.943);
+    box-shadow: 4px 10px 10px 4px rgba(0, 0, 0, 0.623);
 }
 
 #active {
@@ -97,7 +97,7 @@ h2 {
 }
 
 .juice {
-    font-size: medium;
+    font-size: large;
     float: left;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -128,7 +128,7 @@ button {
     border-collapse: separate;
     padding: 5px 10px;
 
-    font-size: medium;
+    font-size: x-large;
     cursor: pointer;
     background-color: #2b0000;
     color: rgb(221, 207, 146);
@@ -151,7 +151,7 @@ button a {
     float: left;
     float: right;
     position: relative;
-    font-size: medium;
+    font-size: 20pt;
 
 }
 
@@ -185,7 +185,7 @@ button a {
     padding: 5px;
     text-decoration: none;
     padding: 20px 40px;
-    border: 1px solid rgba(0, 0, 0, 0.153);
+    border: 1px solid rgba(0, 0, 0, 0.587);
 }
 
 .dropdown-options a:hover {
@@ -196,7 +196,7 @@ button a {
 i {
     margin: 3px;
 
-    font-size: medium;
+    font-size: 100pt;
 }
 
 .coffee {
@@ -211,7 +211,7 @@ i {
     border-radius: 25pt;
     padding: 1%;
     border: 3px solid rgba(0, 0, 0, 0.365);
-    font-size: medium;
+    font-size: large;
     box-shadow: 4px 10px 10px 4px rgba(0, 0, 0, 0.623);
 
 }
@@ -230,12 +230,12 @@ i {
     border-radius: 25pt;
     padding: 1%;
     border: 3px solid rgba(0, 0, 0, 0.365);
-    font-size: small;
+    font-size: large;
     box-shadow: 4px 10px 10px 4px rgba(0, 0, 0, 0.623);
 }
 
 .drinks th {
-    font-size: medium;
+    font-size: larger;
     color: rgb(203, 167, 120);
 
 }
@@ -272,6 +272,6 @@ i {
     border-radius: 25pt;
     padding: 3%;
     border: 3px solid rgba(0, 0, 0, 0.365);
-    font-size: medium;
+    font-size: large;
     box-shadow: 4px 10px 10px 4px rgba(0, 0, 0, 0.623);
 }
